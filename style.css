@@ -40,3 +40,75 @@ nav ul li a {
 nav ul li a:hover {
 	color: white;
 }
+
+.menu-toggle input {
+	opacity: 0;
+}
+/* Hamburger */
+/* .menu-toggle {
+	display: flex;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.menu-toggle input {
+	position: absolute;
+	width: 40px;
+	height: 28px;
+	margin-left: -6px;
+	margin-top: -1px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.menu-toggle span {
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: rgb(213, 233, 255);
+	border-radius: 3px;
+} */
+
+/* Responsive Breakpoints */
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+	nav ul {
+		width: 50%;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+	nav ul {
+		display: none;
+	}
+
+	.menu-toggle {
+		display: flex;
+		flex-direction: column;
+		height: 20px;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.menu-toggle input {
+		position: absolute;
+		width: 40px;
+		height: 28px;
+		margin-left: -6px;
+		margin-top: -1px;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	.menu-toggle span {
+		display: block;
+		width: 28px;
+		height: 3px;
+		background-color: rgb(213, 233, 255);
+		border-radius: 3px;
+	}
+} ;
